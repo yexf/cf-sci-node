@@ -7,7 +7,7 @@
  *
  * Learn more at https://developers.cloudflare.com/workers/
  */
-
+import './worker';
 export default {
 	async fetch(request, env, ctx) {
 		return new Response('Hello World!');
